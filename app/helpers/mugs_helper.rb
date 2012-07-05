@@ -1,0 +1,2 @@
+module MugsHelper
+end

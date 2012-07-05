@@ -1,0 +1,35 @@
+a {
+text-decoration: none;
+color: black;
+}
+
+a:hover {
+text-decoration: underline;	
+}
+
+#content {
+margin: auto;
+width: 1000px;
+}
+
+.clearall {
+clear: both;
+display: block;
+}
+
+#page_container {
+width: 860px;
+margin: auto;
+}
+
+  .page_title {
+  font: 28px verdana;
+  color: gray;
+  margin-left: 20px;
+  }
+
+.body_text {
+margin: 40px 0 0 20px;	
+font: 18px Courier;
+color: gray;	
+}

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  mugphoto_file_name: MyString
+  mugphoto_content_type: MyString
+  mugphoto_file_size: 1
+  mugphoto_updated_at: 2012-06-30 17:33:02
+  mug_id: 1
+
+two:
+  mugphoto_file_name: MyString
+  mugphoto_content_type: MyString
+  mugphoto_file_size: 1
+  mugphoto_updated_at: 2012-06-30 17:33:02
+  mug_id: 1

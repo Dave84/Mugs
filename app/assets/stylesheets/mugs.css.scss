@@ -1,0 +1,46 @@
+#mug_partials_container {
+margin-top: 20px;
+}
+
+  .mug_partial {
+	float: left;
+    width: 160px;
+    height: 240px;
+    margin: 0 0px 10px 10px;
+    background-color: lightgrey;    
+	border-radius: 20px;
+	color: black;
+  }
+
+  .mug_partial:hover {
+	color: white;
+	background-color: gray;
+  }
+
+    .mug_partial_photo {
+	  width: 140px;
+	  height: 180px;
+	  background-color: white;
+	  margin: 10px;
+	  border-radius: 15px;	
+    }
+
+    .mug_partial_name {
+	  font: 14px verdana;
+	  margin-left: 15px;
+    }
+
+  .add_new_mug_button {
+	width: 70px;
+    padding: 10px;
+    margin: 50px 0 0 10px;
+    font: 14px verdana;
+    color: gray;
+    border-radius: 10px;
+    background-color: lightgray;	
+    text-align: center;
+  }
+
+  .add_new_mug_button:hover {
+    color: red;
+  }

@@ -1,0 +1,93 @@
+#header_container {
+margin: 10px;
+}
+
+  #logo {
+  float: left;
+  margin: 10px;
+  width: 250px;
+  }
+
+    .logo_major {
+	font: 56px verdana;
+	font-weight: bold;
+	color: gray;
+	float: left;
+	margin: 0px;
+	padding: 0px;	 
+    }
+  
+    .logo_minor {
+	font: 23px verdana;
+	color: lightgrey;
+	float: left;
+	margin-left: 6px;
+	margin-top: -10px;
+    }
+
+  #user_flash_container {
+  float: right;
+  margin: 10px 10px 0 0;
+  }
+    .user_header_container {
+	height: 70px;
+	text-align: right;
+	font: 12px verdana;
+	color: gray;
+    }  
+
+    .flash {
+	text-align: right;
+	font: 14px verdana;
+	color: green;
+    }
+
+  .menu_container {
+  width: 980px;
+  height: 150px;
+  margin-bottom: 40px;
+  background-color: lightgray;
+  border-radius: 20px;	
+  }
+
+    .menu_sub_container {
+	width: 620px;
+	margin: auto;
+    }
+
+      .menu_option {
+	  float: left;
+	  margin: 10px 0px 0 20px;
+	  width: 130px;
+	  height: 130px;
+	  border-radius: 10px;
+	  background-color: white;
+	  color: gray;
+      }
+
+      .menu_option:hover {
+	  background-color: gray;
+	  color: white;
+	  }
+	
+	    .menu_option_title {
+		width: 130px;
+		font: 16px verdana;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 100px;
+	    }	
+
+#footer_container {
+height: 150px;
+margin: 40px 10px 0 10px;
+background-color: lightgray;
+border-radius: 20px;
+}
+
+  .footer_sub_container {
+  font: 14px verdana;
+  padding-top: 40px;
+  text-align: center;
+  color: gray;
+  }

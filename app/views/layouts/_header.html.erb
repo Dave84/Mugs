@@ -1,0 +1,27 @@
+<div id="header_container">
+	
+  <%= link_to mugs_path do %>
+    <div id="logo">
+      <span class="logo_major">kimavid</span><br><span class="logo_minor">limited edition mugs</span>
+    </div>
+  <% end %>
+
+  <div id="user_flash_container">
+    <%= render :partial => 'layouts/user'%>
+
+    <% if flash.empty? %>
+      <% else %>
+        <div class="flash">
+          <% flash.each do |name, msg| %>
+          <%= content_tag :div, msg, :id => "flash_#{name}", :class => "flash_message" %>
+	    </div>
+      <% end %>
+    <% end %>
+  </div>
+
+  <div class="clearall"></div>
+
+  <%= render :partial => 'layouts/menu' %>
+
+  <div class="clearall"></div>
+</div>

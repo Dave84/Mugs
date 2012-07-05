@@ -1,0 +1,2 @@
+class MugphotosController < ApplicationController
+end

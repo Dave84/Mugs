@@ -1,0 +1,18 @@
+<div id="page_container">
+  <span class="page_title">Mug Gallery</span>
+  <div class="clearall"></div>
+
+  <div id="mug_partials_container">  
+    <%= render :partial => 'mug', :collection => @mugs %>
+  </div>
+
+  <div class="clearall"></div>
+
+  <% if can? :manage, :All %>
+    <%= link_to new_mug_path do %>
+      <div class="add_new_mug_button">
+        add a new mug
+      </div>
+    <% end %>
+  <% end %>
+</div>

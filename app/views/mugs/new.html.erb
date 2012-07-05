@@ -1,0 +1,12 @@
+<%= form_for @mug, :html => { :multipart => true } do |f| %>
+
+  <p>name: <br>
+  <%= f.text_field :name %></p>
+	
+  <%= f.fields_for :mugphotos do |photo| %>
+    <p>photo: <br>
+    <%= photo.file_field :mugphoto %></p>
+  <% end %>	
+
+  <div class="button"><%= submit_tag %></div>
+<% end %>

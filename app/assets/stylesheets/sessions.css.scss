@@ -1,0 +1,31 @@
+.login_form_container {
+width: 300px;
+height: 300px;	
+margin: auto;	
+}
+
+  .login_label {
+    font: 14px verdana;	
+    padding: 10px 0;
+  }
+
+  .login_field {
+  padding: 5px;
+  width: 200px;
+  font: 14px verdana;
+  border: 1px solid gray;
+  border-radius: 5px;	 
+  }
+
+  .login_button {	
+  font: 14px verdana;
+  width: 212px;
+  margin: 40px 0 0 0;
+  padding: 20px 10px;
+  border: 1px solid gray;
+  border-radius: 5px;	
+  }
+
+  .login_button:hover {
+  color: green;	
+  }

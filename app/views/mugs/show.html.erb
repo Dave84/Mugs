@@ -1,0 +1,19 @@
+<%= @mug.name %>
+
+<% if @mug.mugphotos.count.zero? %>
+  <div class="no_photos">
+    Sorry, no photos added yet.
+  </div>
+<% else %>  
+  <% for mugphoto in @mug.mugphotos %>
+    <%= link_to image_tag(mugphoto.mugphoto.url(:thumb), :class => "mug_photo"), mugphoto.mugphoto.url(:thumb) %>
+  <% end %>  
+<% end %>
+
+<% if can? :manage, :All %>
+  <%= link_to edit_mug_path do %>
+    <div class="add_new_mug_button">
+      edit mug
+    </div>
+  <% end %>
+<% end %>

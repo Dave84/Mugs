@@ -1,0 +1,19 @@
+<div class="login_form_container">
+
+  <%= form_tag sessions_path do %>
+
+    <div class="login_label">
+	  email:
+	</div>
+	<%= text_field_tag :email, params[:email], :class => "login_field" %>
+	
+	<div class="login_label">
+	  password:
+	</div>	   
+	<%= password_field_tag :password, params[:password], :class => "login_field" %>
+
+    <div class="clearall"></div>
+      
+    <button type="submit", class="login_button">Log me in already!</button>
+  <% end %>
+</div>
